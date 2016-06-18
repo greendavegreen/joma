@@ -1,10 +1,11 @@
 {
   "name": "joma",
   "version": "0.1.0",
-  "description": "command line too for journal XML ingest",
+  "description": "command line tool for journal XML ingest",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "readme": "node ./node_modules/.bin/node-readme"
   },
   "author": "Dave Green",
   "license": "ISC",
@@ -12,6 +13,11 @@
     "joma": "index.js"
   },
   "dependencies": {
-    "elementa_name_utils": "^0.1.0"
+    "elementa_name_utils": "^0.1.0",
+    "node-readme": "^0.1.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/greendavegreen/joma.git"
   }
 }
