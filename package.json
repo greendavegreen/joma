@@ -13,6 +13,7 @@
     "joma": "index.js"
   },
   "dependencies": {
+    "elementa-parse-utils": "^0.1.1",
     "elementa_name_utils": "^0.1.0",
     "node-readme": "^0.1.9"
   },
